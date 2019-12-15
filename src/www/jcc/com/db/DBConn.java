@@ -6,11 +6,11 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class DBConn {
-	private String userName 	= "";
-	private String password 	= "";
-	private String dbms 		= "";
-	private String dbName 		= "";
-	private String serverName 	= "";	
+	private String userName 	= "javalec";
+	private String password 	= "javalec";
+	private String dbms 		= "mysql";
+	private String dbName 		= "soho";
+	private String serverName 	= "35.189.151.45";	
 	private int portNumber 		= 3306;
 	
 	public Connection getConnection() throws SQLException, ClassNotFoundException {

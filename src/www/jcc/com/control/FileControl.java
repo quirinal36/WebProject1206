@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+
 import java.util.logging.Logger;
 
 public class FileControl {
@@ -18,7 +19,7 @@ public class FileControl {
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
-		logger.info(newFile.getAbsolutePath());
+		System.out.println(newFile.getAbsolutePath());
 	}
 	
 	public String readFile(String title) {

@@ -5,13 +5,13 @@
 <head>
 <meta charset="UTF-8">
 <title>글작성</title>
-<link rel="stylesheet" href="css/form.css">
+<link rel="stylesheet" href="./css/form.css">
 </head>
 <body>
 
 	<div class="wrap">
 		<h1>글작성</h1>
-		<form action="write.jsp" method="POST">
+		<form action="./write.jsp" method="POST">
 			<dl>
 				<dt>제목</dt>
 				<dd><input type="text" placeholder="제목 입력" name="title"/></dd>
